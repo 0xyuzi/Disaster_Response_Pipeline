@@ -32,7 +32,7 @@ Disaster_Response_Pipeline
 ## Instructions 
 
 1. Under the _data_ directory, run the ETL pipeline that cleans and store the cleaned data in to SQLite database in the command prompt  ```python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db ```
-2. Under the _model_ directory, run the ML pipeline to train the XGBClassifier with GridSearchCV and save to the pickle file in the command prompt  ``` python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl ```
+2. Under the _model_ directory, run the ML pipeline to train the classifier with GridSearchCV and save to the pickle file in the command prompt  ``` python models/train_classifier.py data/DisasterResponse.db models/classifier.pkl ```
 3. Under the the _app_ directory, run the web app in the command prompt ``` python run.py```
 4. Open the [http://localhost:3001](http://localhost:3001) to check the web app.
 
